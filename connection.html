@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACTB Connection Portal</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+        <center><h1>ACTB Connection Portal</h1></center>
+        <div class="calculation">
+            <form>
+                <label>Customer Name</label>
+                <input  type="text" name="username" placeholder="Enter the customer name">
+            </form>
+               <form>
+                <label>Customer Email</label>
+                <input  type="email" name="email" placeholder="abc@gmail.com">
+            </form>
+        </form>
+        <form>
+               <label>Mobile Number</label>
+               <input  type="number" name="mobile" placeholder="Enter the Mobile Number">
+        </form>
+        
+        <form>
+            <label>Type of Broadband</label>
+            <select id="connectiontype">
+                <option value="pre">Pre</option>
+                <option value="post">Post</option>
+                 
+            </select>
+        </form>
+        
+
+        <form name="scheme">
+            <label>Scheme Name</label>
+            <input type="radio" id="scheme1"  name="type" value="local">
+             <label for="local">Local</label>
+             <input type="radio" id="scheme2" name="type" value="std">
+              <label for="std">STD</label>
+             <input type="radio" id="scheme3" name="type" value="fulltalktime">
+              <label for="full">FullTalkTime</label>
+
+
+        </form>
+
+        <form>
+            <label>Connection Duration</label>
+            <input  type="number" name="duartion" id="duration" value="value" >
+       </form>
+       <form onsubmit="durationvalue();">
+        <button type="submit">Calculate Bill Ammount</button>
+        <button type="button" onclick="window.location.reload()">Reset</button><br>
+
+       </form>
+
+      
+
+
+       The Total Monthly Rental Cost is Rs. 1075
+
+
+
+       <div class="last">
+           Rental Cost Table
+           <table id="rentalcost" border="1">
+            <tr>
+                <th>Connection Type</th>
+                <th>Call Limit</th>
+                <th>Monthly Rental</th>
+            </tr>
+            <tr>
+                 <td>Pre</td>
+                 <td>500</td>
+                 <td>75</td>
+            </tr>
+            <tr>
+                 <td>Post</td>
+                 <td>Unlimited</td>
+                 <td>150</td>
+            </tr>
+           
+            
+            </table>
+            
+       </div>
+
+
+        </div>
+
+    </div>
+    
+    
+
+
+
+
+
+    
+</body>
+<script src="script.js"></script>
+</html>

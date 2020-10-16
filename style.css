@@ -1,0 +1,33 @@
+body{
+    
+    background-color: #eed426;
+}
+
+h1{
+    color: #006666;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.container{
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: auto;
+    
+
+}
+
+.calculator{
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+   
+}
+
+table{
+    margin: auto;
+    float: auto;
+}
