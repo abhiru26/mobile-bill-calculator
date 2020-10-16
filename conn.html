@@ -35,7 +35,7 @@
         </form>
         
 
-        <form name="scheme">
+        <form name="forms">
             <label>Scheme Name</label>
             <input type="radio" id="scheme1"  name="type" value="local">
              <label for="local">Local</label>
@@ -49,19 +49,17 @@
 
         <form>
             <label>Connection Duration</label>
-            <input  type="number" name="duartion" id="duration" value="value" >
+            <input  type="number" name="duartion" id="duration" >
        </form>
-       <form onsubmit="durationvalue();">
-        <button type="submit">Calculate Bill Ammount</button>
+        <button onclick="calc()">Calculate Bill Ammount</button>
         <button type="button" onclick="window.location.reload()">Reset</button><br>
 
-       </form>
 
-      
-
-
-       The Total Monthly Rental Cost is Rs. 1075
-
+       <div class="result">
+           <center>
+            <p class="edited"></p>
+            </center>
+       </div>
 
 
        <div class="last">

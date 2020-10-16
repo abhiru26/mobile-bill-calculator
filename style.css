@@ -31,3 +31,9 @@ table{
     margin: auto;
     float: auto;
 }
+
+.result{
+    width: 100%;
+    height: 25px;
+    position: relative;
+}
